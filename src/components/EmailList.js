@@ -3,6 +3,7 @@ import { ArrowDropDown, ChevronLeft, ChevronRight, Inbox, KeyboardHide, LocalOff
 import React from 'react'
 import Section from "./Section"
 import "./EmailList.css"
+import EmailRow from "./EmailRow"
 
 function EmailList() {
     return (
@@ -43,7 +44,18 @@ function EmailList() {
                 <Section Icon={LocalOffer} title="Promotions" color="green"  />
             </div>
             <div className="emailList__list">
-                
+                <EmailRow 
+                    title="Twitch"
+                    subject="Hey fellow streamer!!"
+                    description="This is a test"
+                    time="10pm"
+                />
+                <EmailRow 
+                    title="Twitch"
+                    subject="Hey fellow streamer!!"
+                    description="This is a testThis is a testThis is a testThis is This is a testThis is a testa testThis is a test"
+                    time="10pm"
+                />
             </div>
         </div>
     )
