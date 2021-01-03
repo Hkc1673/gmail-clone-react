@@ -88,3 +88,5 @@ const firebaseConfig = {</br>
   const provider = new firebase.auth.GoogleAuthProvider();</br>
 
   export { db, auth, provider };
+
+  # You can review the project with this hosting URL: </br> https://clone-react-9a0d2.web.app
