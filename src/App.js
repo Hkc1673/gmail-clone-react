@@ -6,7 +6,7 @@ import Mail from "./components/Mail";
 import EmailList from "./components/EmailList";
 import SendMail from "./components/SendMail";
 import Login from "./components/Login";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useDispatch, useSelector } from 'react-redux';
 import { selectSendMessageIsOpen } from "./features/mailSlice";
 import { login, selectUser } from './features/userSlice';

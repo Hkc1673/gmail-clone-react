@@ -38,3 +38,6 @@
     display: flex;
     padding-right: 20px;
 }
+.header__right:hover{
+cursor: pointer;
+}
